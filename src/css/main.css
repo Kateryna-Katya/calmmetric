@@ -1,0 +1,159 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    padding-top: 120px;
+}
+.home-title{
+font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.33333;
+    text-align: center;
+    color: #010101;
+}
+.home-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+    .home-container {
+        flex-direction: row;
+        gap: 64px;
+        padding-top: 160px;
+    }
+
+    .home-wrapper {
+width: 892px;
+    }
+
+    .home-title {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .home-text-wrapper {
+
+        gap: 24px;
+        margin-top: 40px;
+    }
+
+    .contact-link {
+        width: 411px;
+        font-size: 22px;
+    }
+}
+/* This is not a chase. It is a conversation */
+.chase-section{
+background: #0b1831;
+}
+.chase-section h2{
+    color: #fff;
+}
+.chase-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #fff;
+}
+.small-chase{
+font-size: 12px;
+}
+@media only screen and (min-width: 1440px) {
+.chase-text-wrapper{
+width: 874px;
+margin-left: auto;
+margin-right: auto;
+}
+.small-chase{
+font-size: 14px;
+}    
+}
+/* You've gotta read between the lines to move forward */
+.move-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.move-item{
+    display: flex;
+        flex-direction: column;
+        gap: 16px;
+border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 20px;
+    width: 327px;
+    height: auto;
+box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+font-size: 16px;
+}
+.move-item-title{
+font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.move-text{
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1440px) {
+.move-list{
+gap: 40px;
+}
+.move-item{
+padding: 24px;
+    width: 1176px;
+    font-size: 24px;
+}
+.move-item-title{
+font-weight: 500;
+    font-size: 32px;
+}
+.move-text{
+    margin-top: 40px;
+    text-align: center;
+}    
+}
+/* The signal is not stable It breathes */
+@media only screen and (min-width: 1440px) {
+.mob{
+    display: none;
+}
+}
+/* Every fragment feels like it was left for someone specific */
+.every-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.every-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+ .every-container{
+flex-direction: row-reverse;
+gap: 64px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.every-wrapper{
+width: 915px;
+}
+.every-wrapper h2{
+    text-align: left;
+}
+.every-text-wrapper{
+    width: 890px;
+gap: 20px;
+}   
+}
