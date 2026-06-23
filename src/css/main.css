@@ -25,6 +25,7 @@ font-family: "Manrope", sans-serif;
         flex-direction: row;
         gap: 64px;
         padding-top: 160px;
+        padding-bottom: 164px;
     }
 
     .home-wrapper {
@@ -49,7 +50,7 @@ width: 892px;
 }
 /* This is not a chase. It is a conversation */
 .chase-section{
-background: #0b1831;
+background: #182a39;
 }
 .chase-section h2{
     color: #fff;
@@ -59,6 +60,7 @@ background: #0b1831;
     flex-direction: column;
     gap: 16px;
     color: #fff;
+
 }
 .small-chase{
 font-size: 12px;
@@ -109,6 +111,7 @@ gap: 40px;
 padding: 24px;
     width: 1176px;
     font-size: 24px;
+    line-height: 1.25;
 }
 .move-item-title{
 font-weight: 500;
